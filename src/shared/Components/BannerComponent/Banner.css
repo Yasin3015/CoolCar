@@ -1,0 +1,45 @@
+.banner{
+    width: 100%;
+    background-image: url('../../../assets/Images/bannerBG1.jpg');
+    margin: 50px auto;
+    padding: 50px 0px ;
+}
+.banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: #fff;
+}
+
+.banner-container img {
+    max-width: 400px;
+    border-radius: 8px;
+    object-fit: contain;
+}
+
+.banner-content {
+    text-align: right;
+    max-width: 400px;
+}
+
+.banner-title {
+    margin: 0 0 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.banner-subtitle {
+    margin: 0 0 20px;
+    font-size: 18px;
+    color: #ccc;
+}
+@media (max-width:768px) {
+    .banner-container {
+        flex-direction: column;
+    }
+    .banner-container img {
+        width: 300px;
+    }
+}
+

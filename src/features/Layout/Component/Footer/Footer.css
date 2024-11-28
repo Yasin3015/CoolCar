@@ -1,0 +1,118 @@
+/* Footer Styles */
+.footer {
+    /* background: linear-gradient(to right, #b00000, #000); */
+    color: #fff;
+    padding: 40px 20px;
+    text-align: right;
+    position: relative;
+    margin-top: 70px;
+    overflow: hidden;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* gap: 20px; */
+  }
+  
+  .footer-section {
+    width: 24%;
+  }
+  
+  .footer-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin: 5px 0;
+  }
+  
+  .footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .footer-section ul li a:hover {
+    color: var(--primary-color);
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+
+  .footer-bottom p:last-child{
+    direction: ltr;
+  }
+  
+  .footer-section.contact p {
+    font-size: 0.9rem;
+  }
+  
+  /* Logo Section */
+  .logo-section {
+    text-align: right;
+    /* flex: 1 1 100%; */
+    margin-bottom: 20px;
+  }
+  
+  .logo-section .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff0000;
+  }
+  
+  .logo-section .about-text {
+    font-size: 0.9rem;
+    color: #fff;
+    margin-top: 5px;
+  }
+  
+  /* Payment Icons */
+  .payment-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .payment-icons img {
+    width: 50px;
+    height: auto;
+    filter: brightness(0) invert(1); /* Makes icons white if they are dark */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-section {
+      width: 49%;
+    }
+  
+    .payment-icons {
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+  }
+  

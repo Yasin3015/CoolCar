@@ -1,0 +1,10 @@
+.cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* padding: 20px; */
+    margin-top: 80px;
+    background-color: #000;
+  }
+  

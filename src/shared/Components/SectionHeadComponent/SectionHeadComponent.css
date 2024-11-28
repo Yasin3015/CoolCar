@@ -1,0 +1,19 @@
+.sec-header-comonent{
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0px !important;
+    margin-bottom: 50px !important;
+    /* background-color: aqua; */
+}
+
+.sec-header-comonent p{
+    font-size: 30px !important;
+    font-weight: 600;
+}
+.sec-header-comonent a:hover{
+    cursor: pointer;
+    color: var(--primary-color) !important;
+}

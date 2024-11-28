@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+  font-family: 'cairo' !important;
+}
+html{
+  direction: rtl;
+}
+:root{
+  --main-bg-color:#0a0a0b;
+  --white-color:#fff;
+  --primary-color:#de0101;
+}
+body {
+  margin: 0;
+  padding: 0px;
+  background-color: var(--main-bg-color) !important;
+}

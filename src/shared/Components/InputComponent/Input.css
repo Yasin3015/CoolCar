@@ -1,0 +1,52 @@
+.input-field-container {
+    background-color: transparent;
+    padding-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+}
+
+.label-icon {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.icon {
+    font-size: 18px;
+}
+
+.input-field {
+    width: 100%;
+    background-color: var(--main-bg-color);
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 18px 15px;
+    border-radius: 8px;
+    outline: none;
+    margin-top: 5px;
+}
+
+.error-text {
+    color: red;
+    font-size: 12px;
+    margin: 0px !important;
+    margin-top: -15px !important;
+}
+
+.submit-button {
+    margin-top: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.submit-button:hover {
+    background-color: #555;
+}
